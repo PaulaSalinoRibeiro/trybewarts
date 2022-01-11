@@ -21,17 +21,24 @@
     </header>
     <main>
         <form action="" id="evaluation-form">
-            <div id="evaluation-form">
-                <input type="text" id="input-name" placeholder="Nome">
-                <input type="text" id="input-lastname" placeholder="Sobrenome">
-                <input type="email" id="input-email" placeholder="Email">
-                <select name="house" id="house">
-                    <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
-                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
-                </select>
-            </div>
+            <h2 class="title">Formulário de Avaliação</h2>
+            <section id="info-user">
+                <div>
+                    <input type="text" id="input-name" class="input-style" placeholder="Nome">
+                    <input type="text" id="input-lastname" class="input-style" placeholder="Sobrenome">
+                </div>
+                <div>
+                    <input type="email" id="input-email" class="input-style" placeholder="Email">
+                    <label for="house"><strong>Casa</strong></label>
+                    <select name="house" id="house" class="input-style">
+                        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                        <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                        <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                    </select>
+                </div>
+                <hr />
+            </section>
 
         </form>
         <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo">

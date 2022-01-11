@@ -43,6 +43,7 @@
 
 main {
   display: flex;
+  justify-content: space-around;
   border: 2px solid black;
 }
 
@@ -55,4 +56,19 @@ main {
 
 #trybewarts-forms-logo {
     height: 500px;
+}
+
+#info-user {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-style {
+    width: 330px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+#house {
+    width: 290px;
 }
