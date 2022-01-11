@@ -15,19 +15,12 @@
 
 .trybewarts-login {
     display: flex;
+    margin-right: 16px;
 }
 
 .trybewarts-header-logo {
     width: 50px;
     margin-left: 16px;
-}
-
-#trybewarts-header-title {
-    color: white;
-}
-
-.trybewarts-login {
-    margin-right: 16px;
 }
 
 .trybewarts-login input {
@@ -36,10 +29,25 @@
     border-radius: 8px;
 }
 
+#trybewarts-header-title {
+    color: white;
+}
+
 #btn-login {
     background-color: purple;
     color: white;
     padding: 8px;
     border-radius: 8px;
     width: 80px;
+}
+
+main {
+    display: flex;
+    border: 2px solid black;
+}
+
+#evaluation-form {
+    display: flex;
+    width: 675px;
+    height: 500px;
 }
