@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:fantasy;
+  font-family: fantasy;
+}
+
+body {
+  background-color: rgb(226, 228, 229);
 }
 
 .header {
@@ -53,26 +57,27 @@ main {
   flex-direction: column;
   width: 675px;
   height: 500px;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 #trybewarts-forms-logo {
-    height: 500px;
+  height: 500px;
 }
 
 #info-user {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .input-style {
-    width: 330px;
-    padding: 8px;
-    margin-bottom: 8px;
+  width: 330px;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 8px;
 }
 
 #house {
-    width: 290px;
+  width: 290px;
 }
 
 .title {
@@ -84,7 +89,7 @@ main {
   width: 200px;
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .family-option {
@@ -92,6 +97,21 @@ main {
 }
 
 hr {
-  margin: 16px 0px 16px 0;
+  margin: 16px 0;
+}
+
+#preferences {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.techs {
+  display: flex;
+}
+
+.techs div {
+  margin-right: 42px;
+  margin-top: 16px;
 }
 
