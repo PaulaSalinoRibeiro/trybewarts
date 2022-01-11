@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:fantasy;
 }
 
 .header {
@@ -44,7 +45,7 @@
 main {
   display: flex;
   justify-content: space-around;
-  border: 2px solid black;
+  margin-top: 40px;
 }
 
 #evaluation-form {
@@ -52,6 +53,7 @@ main {
   flex-direction: column;
   width: 675px;
   height: 500px;
+  font-weight: bold;
 }
 
 #trybewarts-forms-logo {
@@ -72,3 +74,24 @@ main {
 #house {
     width: 290px;
 }
+
+.title {
+  align-self: center;
+  margin-bottom: 24px;
+}
+
+#family {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+}
+
+.family-option {
+  margin-top: 16px;
+}
+
+hr {
+  margin: 16px 0px 16px 0;
+}
+
