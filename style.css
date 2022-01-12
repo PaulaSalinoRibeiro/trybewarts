@@ -129,3 +129,15 @@ hr {
 .textarea {
   margin-bottom: 8px;
 }
+
+#check {
+  margin-top: 8px;  
+}
+
+#submit-btn {
+    background-color: purple;
+    color: white;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin-top: 12px;
+}
