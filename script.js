@@ -12,8 +12,8 @@ function checkLogin() {
   }
 }
 
+//Referência:https://cursos.alura.com.br/forum/topico-habitar-desabilitar-botao-65202
 btnLogin.addEventListener('click', checkLogin);
-
 window.onload = function () {
   btnSubmit.disabled = true;
   function checkBoxVerifired() {
