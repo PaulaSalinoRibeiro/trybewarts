@@ -16,7 +16,7 @@ function checkLogin() {
 
 btnLogin.addEventListener('click', checkLogin);
 
-window.onload = function () {
+window.onload = () => {
   // Referência:https://cursos.alura.com.br/forum/topico-habitar-desabilitar-botao-65202
   btnSubmit.disabled = true;
   function checkBoxVerifired() {
