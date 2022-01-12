@@ -89,7 +89,6 @@ main {
   width: 200px;
   display: flex;
   flex-wrap: wrap;
-  /* border: 2px solid black; */
 }
 
 .family-option {
@@ -115,7 +114,12 @@ hr {
   margin-top: 16px;
 }
 
-#avaliation input[type='radio'] {
+#avaliation {
+  display: flex;
+  justify-content: space-between;
+}
+
+#avaliation div {
   margin-left: 15px;
 }
 
@@ -127,6 +131,7 @@ hr {
 
 .textarea {
   margin-bottom: 8px;
+  display: flex;
 }
 
 #check {
@@ -149,4 +154,8 @@ hr {
   margin-top: 32px;
   justify-content: center;
   padding: 16px;
+}
+
+#counter {
+  align-self: flex-end;
 }
