@@ -34,3 +34,5 @@ function countCharacts() {
 }
 
 textArea.addEventListener('keyup', countCharacts);
+
+// Requisito 21 > conteúdo dentro da tag form
